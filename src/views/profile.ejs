@@ -80,7 +80,7 @@
                 <label for="hours-per-day">Quantas horas <br/>
                   quero trabalhar por dia?</label>
                 <input 
-                  type="number"
+                  type="text"
                   id="hours-per-day" 
                   name="hours-per-day" value="<%= profile["hours-per-day"] %> " />
               </div>
@@ -91,16 +91,16 @@
                 <label for="days-per-week">Quantos dias <br/>quero
                   trabalhar por semana?</label>
                 <input
-                  type="number"
+                  type="text"
                   id="days-per-week" 
-                  name="days-per-week" value="<%= profile["days-per-week"] %> "  />
+                  name="days-per-week" value="<%=profile["days-per-week"]%> "  />
               </div>
 
               <div class="input-wrapper">
                 <label for="vacation-per-year">Quantas semanas <br/>
                   por ano você quer tirar férias?</label>
                 <input 
-                  type="number" 
+                  type="text" 
                   id="vacation-per-year" 
                   name="vacation-per-year" value="<%= profile["vacation-per-year"] %> " />
               </div>
