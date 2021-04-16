@@ -1,18 +1,37 @@
-let data = {
-    name: "Gabriel",
-    avatar: "https://avatars.githubusercontent.com/u/23700451?s=400&u=edd3e561e54e9d491c2b37b19669fe83850c0279&v=4",
-    "monthly-budget": 3000,
-    "hours-per-day": 5,
-    "days-per-week": 5,
-    "vacation-per-year": 4,
-    "hour-value": 75
-}
+const Database = require('../db/config')
 
 module.exports = {
-    get(){
-        return data;
+    async get(){
+        // Inicia conexão
+        const db = await Database()
+        // Executa Query
+        const data = await db.get(`select * from profile`)
+        // Fecha conexão com banco de dados
+        await db.close()
+
+        return  {
+            name: data.name,
+            avatar: data.avatar,
+            "monthly-budget": data.monthly_budget,
+            "days-per-week": data.days_per_week,
+            "hours-per-day": data.hours_per_day,
+            "vacation-per-year": data.vacation_per_year,
+            "hour-value": data.value_hour
+        };
     },
-    update(newData){
-        data = newData;
+    async update(newData){
+        const db = await Database()
+
+        await db.run(`UPDATE profile SET
+        name = "${newData.name}",
+        avatar = "${newData.avatar}",
+        monthly_budget = ${newData["monthly-budget"]},
+        days_per_week = ${newData["days-per-week"]},
+        hours_per_day = ${newData["hours-per-day"]},
+        vacation_per_year = ${newData["vacation-per-year"]},
+        value_hour = ${newData["hour-value"]} 
+        `)
+
+        await db.close()
     }
 }
