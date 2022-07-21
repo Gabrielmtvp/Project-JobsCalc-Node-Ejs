@@ -3,8 +3,9 @@
 </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-howtostart">How to start</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licence</a>
 </p>
@@ -36,6 +37,10 @@ This project was developed with the following technologies:
 ## 💻 Project
 
 JobsCalc is a calculation estimation application for freelance projects, where it is possible to register and exclude jobs (projects), obtaining a cost estimate for each job. In addition, it is possible to plot the hourly value of the person who will be using the system 💰
+
+## 🔌 How to start
+
+To run the project just get the code and execute the command "npm install" for download the dependecies.
 
 ## 🔖 Layout
 
