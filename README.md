@@ -3,10 +3,10 @@
 </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-licença">Licence</a>
 </p>
 
 <p align="center">
@@ -39,12 +39,10 @@ JobsCalc is a calculation estimation application for freelance projects, where i
 
 ## 🔖 Layout
 
-You can view the layout of the project through [desse link](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning). You need an account on [Figma](https://figma.com) to access it.
+You can view the layout of the project through [LINK](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning). You need an account on [Figma](https://figma.com) to access it.
 
 ## :memo: Licence
 
 This project is under the MIT license. See the [LICENSE](.github/LICENSE.md) file for more details.
 
 ---
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
