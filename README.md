@@ -36,11 +36,22 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-JobsCalc is a calculation estimation application for freelance projects, where it is possible to register and exclude jobs (projects), obtaining a cost estimate for each job. In addition, it is possible to plot the hourly value of the person who will be using the system 💰
+JobsCalc is a calculation estimation application for freelance projects, where it is possible to register and exclude jobs (projects), obtaining a cost estimate for each job. 
+
+In addition, it is possible to plot the hourly value of the person who will be using the system 💰
 
 ## 🔌 How to start
 
-To run the project just get the code and execute the command "npm install" for download the dependecies.
+To run the project just get the code and execute the command 
+```
+npm install 
+```
+for download the dependecies.
+
+And after that you can run the project executing the command below:
+```
+npm run dev
+```
 
 ## 🔖 Layout
 
